@@ -1,5 +1,7 @@
-export const kit = {
-  floc: true
+module.exports = {
+  kit: {
+    floc: true
+  }
 };
 
 function includeHTML() {
