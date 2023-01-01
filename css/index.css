@@ -52,7 +52,7 @@ div.right {
 
 .menu > li:hover {
     background-color: #ffffff;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .menu > li:hover .submenu {
