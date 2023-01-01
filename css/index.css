@@ -5,6 +5,12 @@ div {
     height: 100%;
   }
 
+div.header {
+    width: 1130px;
+    box-sizing: border-box;
+    background: #dddddd;
+}
+
 div.left {
     width: 130px;
     float: left;
