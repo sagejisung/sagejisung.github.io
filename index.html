@@ -8,12 +8,13 @@
 </head>
 
 <body>
-	<script>
+	<script src="./include.js" defer>
 		includeHTML();
+		console.log("hello");
 	</script>
 	<div>
-		<div class="left">
-			<div data-include="./include/nav.html"></div>
+		<div class="left" include-html="./include/nav.html">
+			
 		</div>
 
 		<div class="right">
