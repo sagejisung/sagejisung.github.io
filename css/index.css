@@ -1,38 +1,61 @@
 @import "reset.css";
 
+div {
+    width: 1130px;
+    height: 100%;
+  }
+
+div.left {
+    width: 130px;
+    float: left;
+    box-sizing: border-box;
+    background: #dddddd;
+}
+
+div.right {
+    width: 1000px;
+    float: right;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
 .menu {
-    width: 300px;
+    width: 130px;
     overflow: hidden;
-    margin: 150px auto;
+    font-family: 'KoPubWorldDotum';
+    font-weight: 700;
 }
   
 .menu > li {
     width: 100%;
-    text-align: center;
-    line-height: 40px;
-    background-color: #5778ff;
+    text-align: left;
+    line-height: 20px;
+    background-color: #ffffff;
 }
 
 .menu a {
-    color: #fff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .submenu > li {
-    line-height: 50px;
-    background-color: #94a9ff;
+    line-height: 20px;
+    background-color: #ffffff;
 }
 
 .submenu {
     height: 0; /*ul의 높이를 안보이게 처리*/
     overflow: hidden;
+    font-family: 'KoPubWorldDotum';    
+    font-weight: 300;
 }
 
 .menu > li:hover {
-    background-color: #94a9ff;
-    transition-duration: 0.5s;
+    background-color: #ffffff;
+    transition-duration: 1s;
 }
 
 .menu > li:hover .submenu {
-    height: 250px; /*서브메뉴 li한개의 높이 50*5*/
+    height: 100%; /*서브메뉴 li한개의 높이 50*5*/
     transition-duration: 1s;
 }
