@@ -5,22 +5,19 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/index.css">
 	<title>통계</title>
-	<script src="./include.js" defer>
-		includeHTML();
-		console.log("hello");
-	</script>
+	<script src="./include.js"></script>
 </head>
 <body>
 	<div>
-		<div class="left" include-html="./include/nav.html">
-			
+		<div class="left">
+			<div include-html="nav.html"></div>
 		</div>
-
 		<div class="right">
 			<p>
 			<a href="https://streamlit.io/">streamlit.io</a>
 			</p>
 		</div>
 	</div>
+	<script>includeHTML();</script>	
 </body>
 </html>
